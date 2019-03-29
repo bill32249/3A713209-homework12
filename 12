@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	int x = 5;
+	printf("請輸入數字5\n");
+	scanf("%d",&x);
+	printf("*****\n");
+	printf(" ****\n");
+	printf("  ***\n");
+	printf("   **\n");
+	printf("    *\n");
+	system("PAUSE");
+	return 0;
+}
